@@ -1,0 +1,40 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 1rem;
+
+  justify-content: center;
+  align-items: center;
+
+  label {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    width: 50rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  textarea {
+    margin-bottom: 0.5rem;
+    width: 50rem;
+    height: 10rem;
+
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  button {
+    height: 3rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    border-style: solid black;
+  }
+
+  background-color: var(--colorDefault);
+}
